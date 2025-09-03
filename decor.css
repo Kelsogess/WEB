@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('desktop-wallpaper-apple-ob59-summer-tree-palm-nature-iphone-x-summer-nature-iphone-thumbnail.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form Styling */
+form {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Table Cleanup */
+.login-window {
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.login-window td {
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Headings */
+h1 {
+  margin: 0 0 20px;
+  font-size: 26px;
+  color: #333;
+}
+
+/* Inputs */
+.entry1 {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+/* Button */
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Register Link */
+a {
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 10px;
+  color: #28a745;
+}
